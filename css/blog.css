@@ -1,0 +1,196 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(images/p6.png);
+}
+
+/* This is the title style*/
+#title {
+   margin: 0 auto;
+   /*font-family: 'Satisfy', cursive;*/
+    font-family: 'Hammersmith One', sans-serif;
+   text-align: center;
+   font-size: 25px;
+   color: rgba(0,0,0,1);
+}
+
+#heart {
+    height: 40px;
+    width: 40px;
+    background: url(images/vector/AI/Icons%2024%20px.ai) 300 300;
+}
+
+#subtitle {
+    margin-top: -20px;
+    font-size: 27px;
+}
+
+#blog {
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+    margin-top: -18px;
+    color: rgba(120,120,120,1);  
+}
+
+/*-----------*/
+
+/*----Menu--style----*/
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -20px;
+    padding: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 12px;
+   /* background-color: rgba(0,0,255,0.5); */
+}
+
+#menu a {
+    margin: 6px;
+    padding: 10px;
+    text-decoration: none; 
+    color: black;
+}
+
+#menu a:hover {
+    color:red;
+}
+/*-------------------*/
+
+/*----journal-entries-----*/
+
+.photoframe {
+    height: 100%;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+.photo-entry {
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+    width: 600px;
+ 
+}
+/*------------------------*/
+
+/*------Commentary-&-journalentries--------*/
+.commentary {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.journal-entry {
+    height: 100%;
+    padding: 20px 30px 30px 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    background-color: white;
+    
+}
+.entry {
+    height: 100%;
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 40px;
+}
+
+/*-----------------------*/
+
+/*------Social Media-------*/
+
+#about {   
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,1); 
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/*----------------------*/
+
+/*------About-----------*/
+
+
+
+.me {
+    font-size: 30px;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+
+.description {
+    font-size: 20px;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+
+#profilepic {
+    height: 250px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+#social {
+    padding: 10px;
+}
+
+#resume {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif; 
+}
+
+#resume a {
+    color: black;
+}
+
+#resume a:hover {
+    color: red;
+}
+/*-----Work-----*/
+#work {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    background-image: url(images/cork-wallet%20copy.png); 
+    
+}
+
+#resume {
+    padding: 0px;
+    margin-right: 55px;
+    height: 95%;
+    width: 95%;
+    left: -30px;
+    top: -50px;
+}
+
+
+/*-----Contact-----------*/
+
+#contact {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+
+#black {
+    color: black;
+}
+
